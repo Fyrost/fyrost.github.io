@@ -8,12 +8,12 @@ body {
     border-left-color: rgb(226, 226, 226);
     word-wrap: break-word;
     word-break: break-word;
+
 }
 
 /* Main Container style */
 .container-content {
     padding: 0;
-
 }
 
 /* Intro Container Style */
@@ -28,6 +28,7 @@ body {
     color: #111111;
     text-transform: none;
     font-weight: 700;
+    text-align: center;
 }
 
 .intro-container .text-title {
@@ -173,7 +174,7 @@ body {
     -webkit-transition: border-color 300ms, border-width 100ms;
 }
 
-.user-count-container .artboard{
+.user-count-container .artboard {
     background-size: cover;
     background-position: center center;
     background-image: url("../assets/img/Artboard-6-copy.jpg");
@@ -181,16 +182,168 @@ body {
     width: 100%;
 }
 
-.counter-container{
+.counter-container {
     text-align: center;
 }
 
-.counter-container .title-item-count{
+.counter-container .title-item-count {
     font-size: 54px;
 }
-.counter-container .title-item-word{
+
+.counter-container .title-item-word {
     font-size: 32px;
 }
+
+/* Portfolio Container Style */
+
+.portfolio-container {
+    background-color: #1a1a1a;
+}
+
+.portfolio-wrapper {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    padding: 60px 0 30px;
+    position: relative;
+}
+
+.title-wrapper {
+    padding: 20px 0 60px;
+}
+
+.title-wrapper .text-title {
+    font-family: open sans, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.title-wrapper .text-subtitle {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.description-wrapper {
+    margin: 0;
+
+    padding-bottom: 30px;
+}
+
+.description-wrapper h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: none;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.paragraph-wrapper {
+    display: block;
+    padding-bottom: 30px;
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
+
+.description-wrapper p {
+    display: block;
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    color: #cccccc;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.description-wrapper a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #66bbff;
+    padding: 15px 33px 15px 0px;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    padding-bottom: 60px;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    vertical-align: middle;
+}
+
+.description-wrapper a:hover{
+    color: #0d6efd;
+}
+
+.description-wrapper a span{
+    vertical-align: middle;
+
+}
+.description-wrapper a i{
+    vertical-align: middle;
+
+}
+
+.carousel-item {
+    position: relative;
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+
+.carousel-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control-icon-wrapper {
+    display: block;
+    padding: 14px;
+    background: #000;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.control-icon-wrapper i {
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+    opacity: 1;
+    transition: none;
+}
+
+
+
+
 
 /* Nav Bar Style */
 nav {
@@ -206,7 +359,7 @@ nav .navbar-brand img {
 }
 
 nav .navbar-toggler {
-    color: transparent!important;
+    color: transparent !important;
     border: 0;
     outline-style: none;
     outline-width: 0;
