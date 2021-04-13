@@ -95,7 +95,7 @@ body {
 .service-container {
     background: #fafafa;
     padding-top: 110px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 
 .service-container .container {
@@ -114,12 +114,14 @@ body {
 
 .icon-container .col {
     padding: 0 10px 0 10px;
+    
 }
 
 .service {
     max-width: 300px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 70px;
 }
 
 
@@ -284,15 +286,16 @@ body {
     vertical-align: middle;
 }
 
-.description-wrapper a:hover{
+.description-wrapper a:hover {
     color: #0d6efd;
 }
 
-.description-wrapper a span{
+.description-wrapper a span {
     vertical-align: middle;
 
 }
-.description-wrapper a i{
+
+.description-wrapper a i {
     vertical-align: middle;
 
 }
