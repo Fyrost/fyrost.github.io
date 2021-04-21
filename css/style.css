@@ -116,7 +116,7 @@ body {
     font-size: 60px;
     font-weight: 600;
     letter-spacing: -2px;
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 }
 
 .icon-container .col {
@@ -125,8 +125,9 @@ body {
 
 .service {
     max-width: 300px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -498,6 +499,27 @@ nav div.container {
         margin-top: -140px !important;
         margin-bottom: -275px !important;
     }
+
+    .service-container {
+        margin-bottom: -50px;
+    }
+
+    .icon-container {
+        margin-bottom: 15px;
+    }
+
+
+
+    .service-container .text-title {
+        font-size: 45px;
+        padding-bottom: 15px;
+
+    }
+
+    .service {
+        padding-bottom: 50px;
+    }
+
 }
 
 @keyframes scrolling {
