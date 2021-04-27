@@ -41,7 +41,7 @@
 
                         <li class="menu-item menu-item-consultation">
 
-                            <a href="#">Check my repair status</a>
+                            <a href="#repair-status">Check my repair status</a>
 
                         </li>
 
@@ -64,17 +64,17 @@
 
     <!-- Modal -->
     <div class="modal fade" id="menu-modal" tabindex="-1" role="dialog" aria-labelledby="menuModal">
-        
+
         <div class="icon_close modal_close" data-bs-dismiss="modal"></div>
-        
+
         <div class="modal-dialog modal-dialog-centered" role="document">
 
             <div class="modal-content">
-                
+
                 <div class="modal-body container">
-                                        
+
                     <ul class="modal-table">
-                        
+
                         <li class="modal-item">
                             <a href="#">Home</a>
                         </li>
@@ -391,7 +391,7 @@
         </div>
 
         <!-- Repair Status -->
-        <div class="repair-status-container container-fluid">
+        <div class="repair-status-container container-fluid" id="repair-status">
 
             <div class="repair-status-background"></div>
 
@@ -433,7 +433,8 @@
                             <input type="text" class="form-control" placeholder="Enter your Mobile no.">
                         </div>
                         <div class="input-container">
-                            <input type="text" class="form-control" placeholder="Enter the Password">
+                            <input type="text" class="form-control" placeholder="Enter the Password"
+                                style="visibility: hidden;">
                         </div>
                         <div class="input-container form-submit">
                             <input type="submit" class="form-control submit-button" value="submit">
